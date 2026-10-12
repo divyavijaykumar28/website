@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book My Trip</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="web.css">
+    <script src="script.js"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <!-- Logo -->
+
+    <div class="logo">
+        <img src="images/logo.jpeg" alt="Book My Trip Logo">
+    </div>
+
+    <!-- Contact -->
+
+    <div class="contact">
+
+        <i class="fa-solid fa-phone"></i>
+
+        <div>
+
+            <p class="small-text">Call 24/7 Support</p>
+
+            <h4>+91 (44) 1234 5678</h4>
+
+        </div>
+
+    </div>
+
+    <!-- Search Box -->
+
+    <div class="search-box">
+
+        <input
+        type="text"
+        placeholder="Search Hotels, Flights & Packages">
+
+        <button>
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+        </button>
+
+    </div>
+
+</header>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+
+    <div class="menu">
+
+        <a href="#">Hotels</a>
+
+        <a href="#">Flights</a>
+
+        <a href="#">Vacations</a>
+
+        <a href="#">Hot Deals</a>
+
+        <a href="#">Travel Guides</a>
+
+        <a href="#">Blogs</a>
+
+    </div>
+
+    <div class="buttons">
+
+        <button class="signup">
+            SIGN UP
+        </button>
+
+        <button class="account">
+            MY ACCOUNT
+        </button>
+
+    </div>
+
+</nav>
+
+<!-- ================= HERO BANNER ================= -->
+
+<section class="hero">
+
+    <div class="banner">
+
+        <img src="images/image 1.jpg"
+        alt="Banner Image">
+
+    </div>
+
+    <div class="hotel-info">
+
+        <h2>Paris Hilton Hotel, Mumbai, India</h2>
+
+        <p>
+
+            Experience luxury and comfort with
+            world-class facilities, premium rooms,
+            delicious dining, swimming pool,
+            spa and unforgettable hospitality.
+
+        </p>
+
+        <h3>
+
+            $1200
+
+            <span>Inclusive of Breakfast & Dinner</span>
+
+        </h3>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        BOOKING SECTION
+========================= -->
+
+<section class="booking">
+
+    <div class="booking-container">
+
+        <h2>Book Your Dream Trip</h2>
+
+        <p>Find the best hotels and holiday packages at the best prices.</p>
+
+        <form id="bookingForm">
+
+            <div class="form-group">
+
+                <label>Hotel</label>
+
+                <select>
+                    <option>Select Hotel</option>
+                    <option>Hotel Taj</option>
+                    <option>Marriott</option>
+                    <option>Mont Blanc</option>
+                    <option>Hilton</option>
+                </select>
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Location</label>
+
+                <input type="text" placeholder="Enter Destination">
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Check In</label>
+
+                <input type="date">
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Check Out</label>
+
+                <input type="date">
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Rooms</label>
+
+                <select>
+                    <option>1 Room</option>
+                    <option>2 Rooms</option>
+                    <option>3 Rooms</option>
+                    <option>4 Rooms</option>
+                </select>
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Adults</label>
+
+                <select>
+                    <option>1 Adult</option>
+                    <option>2 Adults</option>
+                    <option>3 Adults</option>
+                    <option>4 Adults</option>
+                </select>
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Children</label>
+
+                <select>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+
+            </div>
+
+            <div class="form-group search-btn">
+
+                <button type="submit">
+                    Search Now
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        POPULAR HOTELS
+========================= -->
+
+<section class="popular-hotels">
+
+    <div class="section-title">
+        <h2>Popular Hotels</h2>
+        <p>Choose from our most booked luxury hotels.</p>
+    </div>
+
+    <div class="hotel-container">
+
+        <div class="hotel-card">
+            <img src="images/img2.avif" alt="Hotel Taj">
+
+            <div class="hotel-details">
+                <h3>Hotel Taj Mahal Palace</h3>
+                <p>Mumbai, India</p>
+                <h4>$2000 / Night</h4>
+                <button>Book Now</button>
+            </div>
+        </div>
+
+        <div class="hotel-card">
+            <img src="images/img3.jpg" alt="Mont Blanc">
+
+            <div class="hotel-details">
+                <h3>Mont Blanc</h3>
+                <p>Zurich, Switzerland</p>
+                <h4>$3200 / Night</h4>
+                <button>Book Now</button>
+            </div>
+        </div>
+
+        <div class="hotel-card">
+            <img src="images/img5.jpg" alt="Marriott">
+
+            <div class="hotel-details">
+                <h3>Hotel Marriott</h3>
+                <p>Melbourne, Australia</p>
+                <h4>$1200 / Night</h4>
+                <button>Book Now</button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+            HOT DEALS
+========================= -->
+
+<section class="hot-deals">
+
+    <div class="section-title">
+        <h2>Hot Deals</h2>
+        <p>Special holiday packages at exciting prices.</p>
+    </div>
+
+    <div class="deal-container">
+
+        <div class="deal-card">
+
+            <img src="images/img4.jpg" alt="Paris">
+
+            <div class="deal-text">
+                <h3>Paris Eurostar Breaks</h3>
+                <p>Starting From <strong>$350</strong></p>
+            </div>
+
+        </div>
+
+        <div class="deal-card">
+
+            <img src="images/img6.avif" alt="Mauritius">
+
+            <div class="deal-text">
+                <h3>Mauritius Holiday</h3>
+                <p>Starting From <strong>$500</strong></p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+         LATEST BLOG
+========================= -->
+
+<section class="latest-blog">
+
+    <h2>Latest Travel Blogs</h2>
+
+    <p>
+        Discover the best tourist places,
+        travel tips, hotel reviews,
+        food guides and unforgettable experiences
+        around the world.
+    </p>
+
+</section>
+
+<!-- =========================
+            FOOTER
+========================= -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+
+            <h3>Company</h3>
+
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Customer Support</h3>
+
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Cancellation Policy</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Flights</a></li>
+                <li><a href="#">Vacation Packages</a></li>
+                <li><a href="#">Travel Guides</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Follow Us</h3>
+
+            <p>
+                <i class="fab fa-facebook"></i> Facebook
+            </p>
+
+            <p>
+                <i class="fab fa-instagram"></i> Instagram
+            </p>
+
+            <p>
+                <i class="fab fa-twitter"></i> Twitter
+            </p>
+
+            <p>
+                <i class="fab fa-youtube"></i> YouTube
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        <p>
+            © 2026 Book My Trip. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
